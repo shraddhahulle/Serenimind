@@ -1,0 +1,136 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 260 20% 99%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 273 94% 59%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 260 94% 90%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 260 94% 95%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 273 94% 59%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 273 94% 59%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 273 94% 59%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .emoji-btn {
+    @apply rounded-full w-10 h-10 flex items-center justify-center text-lg hover:scale-110 transition-transform cursor-pointer;
+  }
+  
+  .serenimind-card {
+    @apply p-4 rounded-xl bg-white shadow-md border border-serenity-100 hover:shadow-lg transition-all duration-200;
+  }
+  
+  .nav-link {
+    @apply px-3 py-2 text-sm font-medium text-gray-600 hover:text-serenity-600 rounded-md transition-colors;
+  }
+  
+  .nav-link.active {
+    @apply bg-serenity-100 text-serenity-700;
+  }
+
+  .meditation-card {
+    @apply p-4 rounded-xl bg-white shadow-md border border-serenity-100 hover:shadow-lg transition-all duration-200 flex flex-col;
+  }
+
+  .btn-primary {
+    @apply bg-serenity-500 hover:bg-serenity-600 text-white font-medium rounded-lg px-4 py-2 transition-colors;
+  }
+
+  .btn-secondary {
+    @apply bg-serenity-100 hover:bg-serenity-200 text-serenity-700 font-medium rounded-lg px-4 py-2 transition-colors;
+  }
+
+  .btn-outline {
+    @apply border border-serenity-200 hover:bg-serenity-50 text-serenity-700 font-medium rounded-lg px-4 py-2 transition-colors;
+  }
+}
