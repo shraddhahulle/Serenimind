@@ -23,13 +23,18 @@ Ensure you have **Node.js & npm** installed. You can install them via [nvm](http
 
 ![sere4](https://github.com/user-attachments/assets/263bfe97-3577-4ff5-beeb-aa68494e4cf2)
 
+
 ![sere5](https://github.com/user-attachments/assets/1d7ada7c-7672-4f85-b8cd-2c830a2dd464)
+
 
 ![sere6](https://github.com/user-attachments/assets/2291a39a-5bb9-4d50-80d9-176d4b2ff160)
 
+
 ![sere7](https://github.com/user-attachments/assets/98284f93-4e7d-4250-a0c3-09c0043293fa)
 
+
 ![sere8](https://github.com/user-attachments/assets/09e8d3c9-934f-4296-b7b4-92ee755705fe)
+
 
 ![sere11](https://github.com/user-attachments/assets/dec90cf0-614a-4981-8b09-280d7fe2c27a)
 
