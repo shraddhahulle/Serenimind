@@ -27,18 +27,6 @@ Ensure you have **Node.js & npm** installed. You can install them via [nvm](http
 ![sere5](https://github.com/user-attachments/assets/1d7ada7c-7672-4f85-b8cd-2c830a2dd464)
 
 
-![sere6](https://github.com/user-attachments/assets/2291a39a-5bb9-4d50-80d9-176d4b2ff160)
-
-
-![sere7](https://github.com/user-attachments/assets/98284f93-4e7d-4250-a0c3-09c0043293fa)
-
-
-![sere8](https://github.com/user-attachments/assets/09e8d3c9-934f-4296-b7b4-92ee755705fe)
-
-
-![sere11](https://github.com/user-attachments/assets/dec90cf0-614a-4981-8b09-280d7fe2c27a)
-
-
 #### **Clone & Setup the Project**
 ```sh
 # Clone the repository
@@ -47,6 +35,8 @@ git clone https://github.com/yourusername/serenimind-helper.git
 # Navigate to the project directory
 cd serenimind-helper
 
+![sere6](https://github.com/user-attachments/assets/2291a39a-5bb9-4d50-80d9-176d4b2ff160)
+
 # Install dependencies
 npm install  # or bun install
 
@@ -54,12 +44,21 @@ npm install  # or bun install
 npm run dev  # or bun run dev
 ```
 
+![sere7](https://github.com/user-attachments/assets/98284f93-4e7d-4250-a0c3-09c0043293fa)
+
+
 The app will be available at **http://localhost:5173/** (default Vite port).
+
+![sere8](https://github.com/user-attachments/assets/09e8d3c9-934f-4296-b7b4-92ee755705fe)
 
 ### **2️⃣ Edit a File Directly in GitHub**
 - Navigate to the desired file(s) in your GitHub repository.
 - Click the "Edit" button (pencil icon).
 - Make your changes and commit them.
+
+
+![sere11](https://github.com/user-attachments/assets/dec90cf0-614a-4981-8b09-280d7fe2c27a)
+
 
 ### **3️⃣ Use GitHub Codespaces**
 - Go to your repository’s main page.
