@@ -8,7 +8,7 @@ Serenimind Helper is a web application built using **Vite, TypeScript, and Tailw
 
 ![SERE](https://github.com/user-attachments/assets/6da306a9-9719-4d88-a97c-1854bdd35ff3)
 
-![sere2](https://github.com/user-attachments/assets/30246ba5-8dee-4bad-9d7a-6198b584fd54)
+![sere3](https://github.com/user-attachments/assets/9c9e96a1-edf1-4842-bd32-9a79f2f82a68)
 
 ## 📦 How to Edit This Code
 
@@ -20,8 +20,6 @@ If you want to work locally using your own IDE, follow these steps:
 
 #### **Prerequisites**
 Ensure you have **Node.js & npm** installed. You can install them via [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-![sere3](https://github.com/user-attachments/assets/9c9e96a1-edf1-4842-bd32-9a79f2f82a68)
 
 ![sere4](https://github.com/user-attachments/assets/263bfe97-3577-4ff5-beeb-aa68494e4cf2)
 
